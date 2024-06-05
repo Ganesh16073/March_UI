@@ -1,0 +1,21 @@
+.div1{
+    background-color: aqua;
+    padding: 1%;
+    p{
+        color: bisque;
+    }
+}
+.div2{
+    background-color:chartreuse;
+    padding: 1%;
+    p{
+        color: aquamarine;
+    }
+}
+.div3{
+    background-color: chocolate;
+    padding: 1%;
+    p{
+        color: cornflowerblue;
+    }
+}
