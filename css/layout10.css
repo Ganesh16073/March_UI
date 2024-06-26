@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.wrapper
+{
+    width: 80%;
+    min-height: 400px;
+    margin: auto;
+    /* border: 2px solid black; */
+    background-image: url(/img/leaf.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+header{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid black; */
+    display: flex;
+    /* background-color: rgb(33, 32, 32); */
+}
+header .logo{
+    
+    width: 30%;
+    height: 60px;
+    color: white;
+}
+.logo h1{
+    padding: 7px;
+
+}
+header .menu{
+    width: 70%;
+    height: 60px;
+    padding: 18px;
+}
+.menu a{
+    padding: 15px;
+    /* border: 1px solid black; */
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    background-color: lightslategray;
+    color: aliceblue;
+}
+.slider{
+    width: 100%;
+    min-height: 600px;
+    margin: auto;
+    /* border: 1px solid red; */
+    
+    position: relative;
+    
+}
+.slider .box{
+    width: 30%;
+    border: 2px solid white;
+    min-height: 300px;
+    /* background-image: url(/img/star.jpg); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+
+}
+.box h1{
+    text-align: center;
+    color: white;
+}
+.box label{
+    font-size: 20px;
+    color: #24201E;
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+}
+.box input[type=text],input[type=password]
+{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px; 
+    margin-bottom: 15px; 
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F6EAD4;
+}
+form input[type=submit]
+{
+    width: 90%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+}
+form input[type=submit]:hover
+{
+    background-color: blue;
+    color: white;
+}

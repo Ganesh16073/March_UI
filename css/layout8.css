@@ -155,6 +155,8 @@ form button:hover{
     color: white;
 }
 .footer-info{
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
     border: ipx solid black;
     display: flex;
@@ -167,6 +169,7 @@ form button:hover{
 .section1 i{
     font-size: 60px;
     margin: 35px 15px 10px 15px;
+    color: indigo;
 }
 .section1 p{
     margin: 15px;
@@ -176,6 +179,7 @@ form button:hover{
 }
 .media i{
     font-size: 40px;
+    color: indigo;
 }
 .footer-info .section2{
     width: 25%;
@@ -186,7 +190,8 @@ form button:hover{
     padding: 15px;
 }
 .section2 h1{
-    margin: 15px 10px 20px 10px;
+    margin: 15px 10px 20px 0px;
+    color: indigo;
 }
 .section2 h3{
     margin: 10px;
@@ -200,7 +205,8 @@ form button:hover{
     padding: 10px;
 }
 .section3 h1{
-    margin: 15px 10px 20px 10px;
+    margin: 15px 10px 20px 0px;
+    color: indigo;
 }
 .section3 h3{
     margin: 10px;
@@ -211,7 +217,8 @@ form button:hover{
     min-height: 300px;
 } 
 .section4 h1{
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px 20px 0px;
+    color: indigo;
 }
 .subscribe{
     margin: 15px;
@@ -227,6 +234,8 @@ form button:hover{
     height: 40px;
 }
 footer{
+    padding-left: 30px;
+    padding-right: 30px;
     height: 30px;
 }
 
