@@ -1,0 +1,108 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 700px;
+    /* border: 1px solid #000; */
+    position: relative;
+    background-image:linear-gradient(180deg, #108dc7, #ef8e38), url(./img/BoyWithResume-removebg-preview.png);
+    background-repeat: repeat;
+    background-blend-mode: screen;
+    background-position:left;
+}
+.custom-shape-divider-bottom-1720507488 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720507488 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 197px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1720507488 .shape-fill {
+    fill: #FFFFFF;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    width: 25%;
+    padding: 10px;
+    padding-left: 35px;
+    color: white;
+    font-size: 20px;
+}
+header ul{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+}
+header ul li{
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: white; 
+}
+header ul li a:hover{
+    background-color: #000;
+    color: white;
+}
+section{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+section .content{
+    width: 60%;
+    position: absolute;
+    top: 60px;
+    padding: 100px;
+}
+section h2{
+    padding: 10px;
+    font-size: 4.3em;
+    font-weight: bold;
+    color: #282221;
+}
+section p{
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: justify;
+    color: #282221;
+}
+section img{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    z-index: 9;
+    background-blend-mode: screen;
+}
+.curvepos{
+    position: absolute;
+    bottom: 0;
+}
